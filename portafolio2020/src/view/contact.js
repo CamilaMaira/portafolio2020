@@ -6,7 +6,7 @@ const Contact = () => {
     return (
 
         <div>
-            <p>CAMI ABOUT</p>
+            <p>este es mi nombre</p>
         </div>
     )
 

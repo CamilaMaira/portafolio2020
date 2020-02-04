@@ -1,0 +1,26 @@
+.the-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40px;
+    width: 50px;
+    margin-left: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.the-button:focus {
+    outline: none;
+}
+
+.button-line {
+    width: 5px;
+    height: 5px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+    background: black;
+}
