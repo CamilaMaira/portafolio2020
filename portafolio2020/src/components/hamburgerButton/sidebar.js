@@ -22,7 +22,6 @@ const sideBar = props => {
     </nav>
     )
 
-
 };
 
 export default sideBar;

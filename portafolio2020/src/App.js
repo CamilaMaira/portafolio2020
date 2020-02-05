@@ -11,6 +11,7 @@ import Backdrop from './components/backdrop/backdrop';
 import About from './view/about';
 import Projects from './view/projects';
 import Contact from './view/contact';
+import Home from './view/home';
 
 
 class App extends Component {
@@ -45,12 +46,12 @@ class App extends Component {
         {backdrop}
         
           <main>
-            <p>que muera piñera y no mi compañera</p>
+            
           </main>
 
           <div> 
             <Switch>
-            <Route exact path="/" component={""} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />

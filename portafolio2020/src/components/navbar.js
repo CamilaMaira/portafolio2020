@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'
+import logo from '../img/logocami2.gif'
 
 // components
 import HamburgerButton from './hamburgerButton/hamburgerButton'
@@ -13,7 +14,9 @@ const Navbar = props => (
           <div className="navbar-hamburgerbutton">
             <HamburgerButton click={props.hamburgerClickHandler}/>
           </div>
-        <div className="logo"><a href="/">EL LOGO</a></div>
+        <div className="logo">
+          <a href="/"> <img src={logo} alt=""/> </a>
+          </div>
           <div className="spacer" />
             <div className="navbar">
               <ul>
@@ -28,3 +31,4 @@ const Navbar = props => (
 )
 
 export default Navbar;
+
