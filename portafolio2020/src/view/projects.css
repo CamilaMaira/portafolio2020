@@ -1,0 +1,107 @@
+.project-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-inside {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    line-height: 22px;
+}
+
+.project-inside-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    line-height: 15px;
+
+}
+
+.project-inside img,
+.project-inside-right img {
+    width: 270px;
+    height: auto;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+.inside-info  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+
+.inside-info h3 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.inside-info p {
+    line-height: 15px;
+    margin-bottom: 50px;
+}
+
+
+.inside-info .tecnologias {
+    font-size: 12px;
+    font-weight: lighter;
+    color: blue;
+}
+
+.inside-info button {
+    color: blue;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid blue;
+    
+    margin: 0px 0px 50px 0px;
+    background-color: transparent;
+}
+
+.inside-info button:hover {
+    background-color: blue;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .project-inside, 
+    .project-inside-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .project-inside img,
+    .project-inside-right img {
+    width: 50%;
+    height: auto;
+    margin: 30px;
+}
+
+    .inside-info {
+       
+        align-items: center;
+        text-align: center;
+    }
+    
+
+
+
+}

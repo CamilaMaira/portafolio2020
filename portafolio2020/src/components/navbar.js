@@ -20,10 +20,11 @@ const Navbar = props => (
           <div className="spacer" />
             <div className="navbar">
               <ul>
-                <li> <Link to="/">home</Link> </li>
+                
                 <li> <Link to="/projects">proyectos</Link> </li>
-                <li> <Link to="/about">about</Link> </li>
+                <li> <Link to="/about">sobre mi</Link> </li>
                 <li> <Link to="/contact">contacto</Link> </li>
+                
             </ul>
           </div>
          </nav>
