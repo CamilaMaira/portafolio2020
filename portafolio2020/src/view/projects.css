@@ -30,7 +30,7 @@
 
 .project-inside img,
 .project-inside-right img {
-    width: 270px;
+    width: 320px;
     height: auto;
     margin: 30px;
     margin-right: 50px;
@@ -49,6 +49,7 @@
 }
 
 .inside-info p {
+    color:#747474;
     line-height: 15px;
     margin-bottom: 50px;
 }
@@ -90,18 +91,14 @@
 
     .project-inside img,
     .project-inside-right img {
-    width: 50%;
+    width: 70%;
     height: auto;
     margin: 30px;
 }
 
     .inside-info {
-       
         align-items: center;
         text-align: center;
     }
-    
-
-
 
 }

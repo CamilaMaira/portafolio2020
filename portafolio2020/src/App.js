@@ -6,6 +6,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import SideBar from './components/hamburgerButton/sidebar'
 import Backdrop from './components/backdrop/backdrop';
+import Footer from './components/footer';
 
 // views 
 import About from './view/about';
@@ -49,6 +50,8 @@ class App extends Component {
             
           </main>
 
+          
+
           <div> 
             <Switch>
             <Route exact path="/" component={Home} />
@@ -57,6 +60,7 @@ class App extends Component {
             <Route exact path="/contact" component={Contact} />
             </Switch>
           </div>
+          <Footer />
       </div>
     </BrowserRouter>
   )};

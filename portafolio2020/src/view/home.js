@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -8,8 +9,8 @@ const Home = () => {
                 <div className="home-inside">
                     <p>diseño gráfico</p>
                     <p>& fron-ent developer</p>
-                    <p id="mas">¿Quieres mas?</p>
-                    <button>Contact Me</button>
+                    <p id="mas">¿Quieres más?</p>
+                    <p id="projects"><Link to="/projects">Proyectos</Link></p>
                 </div>
             
                 <div className="contact-me">
