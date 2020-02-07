@@ -47,10 +47,7 @@ class App extends Component {
         {backdrop}
         
           <main>
-            
           </main>
-
-          
 
           <div> 
             <Switch>

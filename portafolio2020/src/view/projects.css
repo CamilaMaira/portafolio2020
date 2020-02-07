@@ -1,5 +1,5 @@
 .project-container {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +40,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-   
 }
 
 .inside-info h3 {
@@ -50,7 +49,7 @@
 
 .inside-info p {
     color:#747474;
-    line-height: 15px;
+    line-height: 20px;
     margin-bottom: 50px;
 }
 
@@ -61,7 +60,16 @@
     color: blue;
 }
 
-.inside-info button {
+.project-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-buttons a {
+    margin: 15px;
+}
+
+.project-buttons button {
     color: blue;
     font-size: 17px;
     text-align: center;
@@ -69,8 +77,7 @@
     padding: 10px;
     width: 150px;
     border: 2px solid blue;
-    
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 30px 0px;
     background-color: transparent;
 }
 
@@ -91,7 +98,7 @@
 
     .project-inside img,
     .project-inside-right img {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 30px;
 }
