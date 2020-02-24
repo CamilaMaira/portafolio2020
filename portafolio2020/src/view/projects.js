@@ -16,8 +16,9 @@ const Projects = () => {
 
                 <div className="inside-info">
                     <h3>GO!</h3>
-                        <p>Red social para conectar personas que buscan hacer deportes en compañía y generalmente no cuentan con quien hacerlo.  </p>
-                        <p className="tecnologias">Javascript / Firebase / Design Responsive</p>
+                        <p>App para conectar personas que buscan hacer deportes en compañía. Manejo base de datos para 
+                          publicaciones y registro de usuarios  a tráves de Firebase: Authentication, Database y Storage.  </p>
+                        <p className="tecnologias">Javascript / Firebase / Responsive Design</p>
 
                     <div className="project-buttons">
                         <a href="https://camilamaira.github.io/SCL011-data-lovers/src/index.html/" target="_blank" rel="noopener noreferrer">
@@ -34,7 +35,7 @@ const Projects = () => {
             
                 <div className="inside-info">
                     <h3>Rick & Morty</h3>
-                    <p>Página web donde se pueden visualizar un conjunto de datos de Rick & Morty junto a trabajo de jerarquía de la información y una interfaz intuitiva.</p>
+                    <p>Sitio web realizado para fans de la serie Rick & Morty en donde se visualizan un conjunto de datos extraídos desde una API.</p>
                         
                     <p className="tecnologias">Javascript / API / CSS</p>
 
@@ -54,12 +55,13 @@ const Projects = () => {
             <img src={pruebauno} alt="CL"/>
             <div className="inside-info">
             <h3>Burger Queen</h3>
-                    <p>Aplicación para tablets desarrollada para restaurantes con la finalidad de agilizar el proceso de toma de pedidos.</p>
+                    <p>Interfaz diseñada con React con la finalidad de agilizar el flujo de toma de 
+                      pedidos de un restaurant.</p>
                         
-                    <p className="tecnologias">React / Firebase</p>
+                    <p className="tecnologias">React / Firebase / CSS / Figma / Github</p>
 
                     <div className="project-buttons">
-                    <a href="https://camilamaira.github.io/SCL011-data-lovers/src/index.html/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scl011-burger-queen.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                         <button>Demo</button></a>
                     
                     <a href="https://github.com/CamilaMaira/SCL011-Burger-Queen" target="_blank" rel="noopener noreferrer">

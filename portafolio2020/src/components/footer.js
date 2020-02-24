@@ -10,8 +10,8 @@ const Footer = () => {
 
         <div className="footer">
             <div className="footer-info">
-                <p>me gusta el cafe</p>
-                <p>+569 3235 8702</p>
+                <p>me gusta el cafe, hablemos :)</p>
+                <p>camilamaira.m@gmail.com · +569 3235 8702</p>
             
                 <div className="footer-logo">
                      <a href="https://github.com/CamilaMaira" target="_blank" rel="noopener noreferrer">

@@ -37,7 +37,7 @@
 
 .sidebar ul li a:hover,
 .sidebar ul li a:active {
-    color: blue;
+    color: #de007b;
 }
 
 @media(min-width: 769px) {

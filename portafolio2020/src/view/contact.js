@@ -6,7 +6,8 @@ const Contact = () => {
     return (
 
         <div>
-            <p>este es mi nombre</p>
+            <p>camilamaira.m@gmail.com</p>
+            <p>+569 3235 8702</p>
         </div>
     )
 

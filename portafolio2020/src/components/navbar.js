@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'
-import logo from '../img/logocami2.gif'
+import logo from '../img/logocami3.gif'
 
 // components
 import HamburgerButton from './hamburgerButton/hamburgerButton'
