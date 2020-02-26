@@ -22,7 +22,7 @@ const Navbar = props => (
               <ul>
                 
                 <li> <Link to="/projects">proyectos</Link> </li>
-                <li> <Link to="/about">sobre mi</Link> </li>
+                <li> <Link to="/about">sobre mí</Link> </li>
                 <li> <Link to="/contact">contacto</Link> </li>
                 
             </ul>

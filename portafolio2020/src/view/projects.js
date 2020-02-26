@@ -12,13 +12,12 @@ const Projects = () => {
         <div className="project-container">
 
             <div className="project-inside">
-                <img src={pruebauno} alt="BQ" />
-
+              <img src={pruebauno} alt="BQ" />
                 <div className="inside-info">
-                    <h3>GO!</h3>
-                        <p>App para conectar personas que buscan hacer deportes en compañía. Manejo base de datos para 
-                          publicaciones y registro de usuarios  a tráves de Firebase: Authentication, Database y Storage.  </p>
-                        <p className="tecnologias">Javascript / Firebase / Responsive Design</p>
+                  <h3>GO!</h3>
+                    <p>App para conectar personas que buscan hacer deportes en compañía. Manejo base de datos para 
+                        publicaciones y registro de usuarios  a tráves de Firebase: Authentication, Database y Storage.  </p>
+                    <p className="tecnologias">Javascript / Firebase / Responsive Design</p>
 
                     <div className="project-buttons">
                         <a href="https://camilamaira.github.io/SCL011-data-lovers/src/index.html/" target="_blank" rel="noopener noreferrer">
@@ -71,22 +70,41 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="project-inside-right">
+          <div className="project-inside-right">
             <img src={chuvalivre} alt="CL" />
         
             <div className="inside-info">
             <h3>chuva.livre</h3>
-                    <p>Portafolio digital de material audiovisual con especial foco en visuales interactivas.</p>
+                    <p>Portafolio digital que reúne trabajos orientados a la animación digital, artes mediales, visuales interactivas, gifts y videocollages.</p>
                         <br />
                     <p className="tecnologias">Premiere Pro / After Effects / Touchdesigner / Hydra</p>
                     <div className="project-buttons">
                     <a href="https://www.instagram.com/chuva.livre/" target="_blank" rel="noopener noreferrer">
                         <button>Ir</button></a>
-                        </div>
+                    </div>
                 
-                </div>
             </div>
-        </div>
+          </div>
+
+          <div className="project-inside">
+            <img src={pruebauno} alt="CL" />
+        
+            <div className="inside-info">
+            <h3>hagocaras</h3>
+                    <p>Dibujos de un solo trazo que a través de la serigrafía, el graffiti y la 
+                      autogestión dan una expresión única e irrepetible a cualquier espacio que pueda 
+                      habitarlo: poleras, totebags, libretas y muros.</p>
+                        <br />
+                    <div className="project-buttons">
+                    <a href="https://www.instagram.com/hagocaras/" target="_blank" rel="noopener noreferrer">
+                        <button>Ir</button></a>
+                    </div>
+                
+            </div>
+          </div>
+
+        
+    </div>
     )
 
 }

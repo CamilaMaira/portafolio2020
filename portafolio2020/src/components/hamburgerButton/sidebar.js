@@ -15,7 +15,7 @@ const sideBar = props => {
         <ul>
             <li> <Link to="/">home</Link> </li>
             <li> <Link to="/projects">proyectos</Link> </li>
-            <li> <Link to="/about">about</Link> </li>
+            <li> <Link to="/about">sobre mí</Link> </li>
             <li> <Link to="/contact">contacto</Link> </li>
         </ul>
         
